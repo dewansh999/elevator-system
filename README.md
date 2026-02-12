@@ -52,6 +52,35 @@ src/main/java/com/elevator/elevatorsystem
 ```
 
 ---
+## Architecture
+
+```
+Client (Postman / Browser)
+        |
+        v
+Spring Boot Application
+        |
+  ----------------------
+  |                    |
+PostgreSQL           Redis
+(Database)           (Cache)
+```
+## System Flow
+
+```
+User Request
+    |
+Controller Layer
+    |
+Service Layer
+    |
+Repository Layer
+    |
+Database (PostgreSQL)
+
+Cache Layer (Redis)
+```
+
 
 ## Running Locally
 
@@ -94,7 +123,13 @@ docker run -p 8080:8080 elevator-system
 ```
 
 ---
+## Postman Collection
+Included in:
+```
+/postman/Elevator-System.postman_collection.json
+```
 
+---
 ## API Endpoints
 
 | Method | Endpoint | Description |
