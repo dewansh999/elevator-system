@@ -1,3 +1,10 @@
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
+![Redis](https://img.shields.io/badge/Redis-Caching-red)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![Build](https://img.shields.io/badge/Build-Maven-orange)
+
 # Elevator Management System
 
 A Spring Boot REST API that simulates a multi-elevator management system with scheduling, caching, database persistence, and Docker deployment.
