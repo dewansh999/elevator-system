@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/elevatordb
+    username: postgres
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    redis:
+      host: redis-16719.c16.us-east-1-2.ec2.cloud.redislabs.com
+      port: 16719
+      username: default
+      password: DOPjdhzW5zagrO5hOFg0W6c722fDrIbU
